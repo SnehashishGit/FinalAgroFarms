@@ -27,7 +27,7 @@ function Login() {
                 </h3>
                 <span className="bg-[#4caf50] w-[50px] h-[4px] absolute top-[60px]"></span>
                 <p className="text-[15px] font-medium text-[#646464]">
-                  85 Briston Mint Street,
+                Chintalapadu Village 
                   <br /> Andhrapradesh , India
                 </p>
               </div>
@@ -82,13 +82,15 @@ function Login() {
             <button
               type="submit"
               className="text-white bg-[#4caf50] w-fit py-[15px] px-[30px] font-bold text-[14px] uppercase self-center mt-6"
-            >
+              >
+            <a href="mailto:snehashish.bg@gmail.com"> 
+                  </a>
               submit now
             </button>
           </form>
         </div>
 
-        {/* map */}
+      
        
         <Footer />
       </section>

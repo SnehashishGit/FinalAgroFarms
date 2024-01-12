@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import TitleBg from "../../images/pricing/title-bg(1final).svg";
 import MainButton from "../MainButton";
 
@@ -44,9 +45,9 @@ function Hero() {
           <span className="w-[35px] bg-[#4CAF50] h-[2.5px] mr-6"></span>
           <div className="text-white gap-7 flex mr-7 ">
            
-            <i class="fa rotate-90 hover:text-[#FFC107] fa-phone text-3xl cursor-pointer ease-in duration-200" ></i>
-            <i className="fa-brands rotate-90 hover:text-[#FFC107] fa-youtube text-3xl cursor-pointer ease-in duration-200"></i>
-            <i className="fa-brands rotate-90 hover:text-[#FFC107] fa-whatsapp text-3xl cursor-pointer ease-in duration-200 "></i>
+          <Link to="/contact"><i class="fa rotate-90 hover:text-[#FFC107] fa-phone text-3xl cursor-pointer ease-in duration-200" ></i></Link> 
+            <Link to ="https://youtu.be/YAIJ1ZwqsV8?si=vLmNRa-xi3MV3jd3"><i className="fa-brands rotate-90 hover:text-[#FFC107] fa-youtube text-3xl cursor-pointer ease-in duration-200"></i></Link>
+            <Link to = "/contact"><i className="fa-brands rotate-90 hover:text-[#FFC107] fa-whatsapp text-3xl cursor-pointer ease-in duration-200 "></i></Link>
           </div>
         </div>
       </section>
