@@ -45,7 +45,7 @@ Rooted in Excellence, Cultivating Tomorrow – AgroFarms, Your Partner in Agricu
                 </a>
               </p>
             </div>
-FFC107
+
             {/* middle div */}
             <div className="flex flex-col gap-8 relative">
               <p className="text-[22px] font-bold footer-main">Our Contact</p>

@@ -105,7 +105,7 @@ with Agro Farm Machinery Sales
                 arrowColor={`!text-white`}
                 cN="choose-cta"
                 hover={`hover:bg-[#4CAF50]`}
-                goTo="/classes"
+                goTo="/pricing"
               />
             </div>
           </div>

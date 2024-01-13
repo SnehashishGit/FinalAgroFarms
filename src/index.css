@@ -25,7 +25,7 @@ body {
 .container-hero {
   max-width: 111.6rem;
   margin: 0 auto;
-
+  
 }
 
 .container {
@@ -212,7 +212,7 @@ body {
 .item-3,
 .item-4,
 .item-5 {
-  filter: grayscale(100%);
+  filter: grayscale(20%);
   object-fit: cover;
   background-size: cover;
   background-position: center;

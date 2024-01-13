@@ -20,14 +20,14 @@ function PricingBox({ img, price }) {
               Rs.
             </span>
             {price}
-            <span className="text-[22px] text-[#6d6d6d] absolute font-normal bottom-[25px] -right-[6rem]">
+            <span className="text-[22px] text-[#6d6d6d] absolute font-thin bottom-[25px] -right-[6rem]">
               only/-
             </span>
           </p>
           {/* text */}
           <div className="flex flex-col text-[16px] font-medium text-center gap-8 text-[#646464] ">
-            <p>Double Motor Sprayer </p>
-            <p>crop spraying</p>
+            <p>Farm Machinery </p>
+            <p>Market Price : Rs. 38000 /-</p>
 
           </div>
 

@@ -2,9 +2,9 @@ import AboutCarts from "./AboutCarts";
 import TitleRed from "../../images/pricing/title-bg(1final).svg";
 import TrainersIcon from "../../images/who-we-are/group.png";
 import ModernIcon from "../../images/who-we-are/watering-can.png";
-import LiftIcon from "../../images/who-we-are/b2b.png";
+import BtwoB from "../../images/who-we-are/b2b.png";
 import AboutUs from "../../images/who-we-are/about-us.jpg";
-import GirlRedBg from "../../images/who-we-are/girl-redbg.svg";
+
 import GirlText from "../../images/who-we-are/rating.jpg";
 
 import MainButton from "../MainButton";
@@ -66,7 +66,7 @@ function About() {
 
                 <div className="flex flex-col items-center text-center py-10 px-14 pr-2 min620:px-0">
                   <img
-                    src={LiftIcon}
+                    src={BtwoB}
                     alt="icon_img"
                     className={`w-[5.4rem] mb-6 h-auto`}
                   />
@@ -84,7 +84,7 @@ function About() {
                 arrowColor={`!text-white`}
                 hover={`hover:bg-[#FFC107]`}
                 text="take a tour"
-                goTo="/classes"
+                goTo="https://youtu.be/YAIJ1ZwqsV8?si=vLmNRa-xi3MV3jd3"
               />
             </div>
             {/* img side */}

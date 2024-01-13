@@ -43,12 +43,12 @@ function Featured() {
                   people's lives is our main vision. Together
                     with Fauget Tech, We Create a Better and
                   Sustainable India G20 for Agritech needs.What we provide will have a good impact
-on your company but will not damage the
-environment.Technological progress is something
-that we cannot stop. We must use
-technology to make life easier in the
-world. However, don't let technology
-use us to rule the world.
+          on your company but will not damage the
+                  environment.Technological progress is something
+        that we cannot stop. We must use
+              technology to make life easier in the
+          world. However, don't let technology
+            use us to rule the world.
 
 
                 </p>
@@ -104,7 +104,7 @@ hiked.Cost is very much affordable
                 arrowColor={`!text-white`}
                 hover={`hover:bg-[#4CAF50]`}
                 text="join us"
-                goTo="/classes"
+                goTo="/contact"
               />
           </div>
         </div>

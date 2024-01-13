@@ -31,7 +31,7 @@ function Hero() {
               color={`text-black`}
               bg={`bg-white`}
               text="Explore Products"
-              goTo="/classes"
+              goTo="/pricing"
             />
           </div>
         </div>
@@ -40,12 +40,13 @@ function Hero() {
           className="flex flex-row-reverse -rotate-90 text-white
           absolute top-2/4 right-0 items-center min800:hidden"
         >
-          <p className="uppercase  text-3xl font-bold tracking-widest">share</p>
+          <p className="uppercase  text-3xl font-bold tracking-widest">call</p>
           <span className="w-[35px] bg-[#4CAF50] h-[2.5px] mr-6"></span>
           <div className="text-white gap-7 flex mr-7 ">
-            <i className="fa-brands rotate-90 hover:text-[#FFC107] fa-facebook text-3xl cursor-pointer ease-in duration-200 "></i>
-            <i className="fa-brands rotate-90 hover:text-[#FFC107] fa-twitter text-3xl cursor-pointer ease-in duration-200"></i>
-            <i className="fa-brands rotate-90 hover:text-[#FFC107]  fa-linkedin-in text-3xl cursor-pointer ease-in duration-200 "></i>
+           
+            <i class="fa rotate-90 hover:text-[#FFC107] fa-phone text-3xl cursor-pointer ease-in duration-200" ></i>
+            <i className="fa-brands rotate-90 hover:text-[#FFC107] fa-youtube text-3xl cursor-pointer ease-in duration-200"></i>
+            <i className="fa-brands rotate-90 hover:text-[#FFC107] fa-whatsapp text-3xl cursor-pointer ease-in duration-200 "></i>
           </div>
         </div>
       </section>

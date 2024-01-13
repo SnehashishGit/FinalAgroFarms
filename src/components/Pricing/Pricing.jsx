@@ -4,7 +4,7 @@ import BgDumbell from "../../images/pricing/bg-img.jpg";
 import PricingBox from "./PricingBox";
 
 import Img1 from "../../images/pricing/img1.png";
-import Img2 from "../../images/pricing/img2 (2).jpg";
+
 
 
 function Pricing() {
@@ -35,8 +35,8 @@ function Pricing() {
           </div>
           {/* pricing boxes */}
           <div className="flex gap-10 mt-32 relative z-[2] md1000:flex-col md1000:items-center ">
-            <PricingBox img={Img1} price="250" />
-            <PricingBox img={Img2} price="25000" />
+            <PricingBox img={Img1} price="25000" />
+            
             
           </div>
           <img
