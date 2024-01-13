@@ -3,8 +3,8 @@ import Footer from "../components/Footer/Footer";
 import TitleRed from "../images/pricing/title-bg(1final).svg";
 import MainButton from "../components/MainButton";
 
-
-
+import AboutUs from "../images/who-we-are/about-us.jpg";
+import GirlText from "../images/who-we-are/rating.jpg";
 
 
 function About() {
@@ -40,6 +40,17 @@ function About() {
                 cN="pricing-cta blog-cta"
               />
             </div>
+                        {/* img side */}
+
+
+                        <div className="relative md1000:hidden">
+              <img
+                src={AboutUs}
+                alt="abtus"
+                className="abt-us"
+              />
+               <img src={GirlText} alt="bg-text" className="girl-text" />
+               </div>
             {/*  */}
           </div>
           {/*  */}

@@ -84,7 +84,7 @@ function About() {
                 arrowColor={`!text-white`}
                 hover={`hover:bg-[#FFC107]`}
                 text="take a tour"
-                goTo="https://youtu.be/YAIJ1ZwqsV8?si=vLmNRa-xi3MV3jd3"
+                goTo="/gallery/page-1"
               />
             </div>
             {/* img side */}

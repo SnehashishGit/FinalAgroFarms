@@ -79,14 +79,16 @@ function Login() {
               placeholder="Address"
               className="w-full py-[12px] px-[20px] h-[140px] text-[14px] border border-solid border-[#e4e4e4] outline-none mb-8"
             ></textarea>
+            
+            
             <button
               type="submit"
               className="text-white bg-[#4caf50] w-fit py-[15px] px-[30px] font-bold text-[14px] uppercase self-center mt-6"
               >
-            <a href="mailto:snehashish.bg@gmail.com"> 
-                  </a>
               submit now
             </button>
+            
+            
           </form>
         </div>
 

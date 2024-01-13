@@ -8,11 +8,12 @@ import { useState } from 'react';
 export default function Nav()
     { 
         const [isopen, setIsOpen] = useState(false)
+        
 
   return (
     
     <div className='outer_div'>
-         <p>Agro<span className='fm'>Farms.</span></p>
+         <p>Agro<span className='fm'>FarmMachinery.</span></p>
         <div>
         <ul className={isopen ?"ul_list" :"ul_list1"}>
             <li>
@@ -27,13 +28,13 @@ export default function Nav()
             setIsOpen (!isopen)
          } }>Products</Link>
             </li><li>
-                <Link   to={"/contact"}onClick={()=>{
+                <Link   to={"/pricing"}onClick={()=>{
             setIsOpen (!isopen)
          } }>Choose Us</Link>
             </li><li>
-                <Link   to={"/contact"}onClick={()=>{
+                <Link   to={"/gallery/page-1"}onClick={()=>{
             setIsOpen (!isopen)
-         } }>Team</Link>
+         } }>Gallery</Link>
             </li><li>
                 <Link    to={"/pricing"}onClick={()=>{
             setIsOpen (!isopen)
