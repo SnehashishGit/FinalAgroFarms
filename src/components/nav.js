@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import "../styles/Nabvarstyle.css"
-import { FaBeer } from "react-icons/fa";
+import { FaBars } from "react-icons/fa";
 import { useState } from 'react';
 
 
@@ -13,7 +13,9 @@ export default function Nav()
   return (
     
     <div className='outer_div'>
-         <p>Agro<span className='fm'>FarmMachinery.</span></p>
+    <a href="/">
+         <p>Agro<span className='fm'>Farm
+         Machinery</span></p></a>
         <div>
         <ul className={isopen ?"ul_list" :"ul_list1"}>
             <li>
@@ -45,9 +47,9 @@ export default function Nav()
          } }>Contact</Link>
             </li>
         </ul></div>
-        <Link to={"/pricing"}><button className='btn'>Products</button></Link>
+        {/* <Link to={"/pricing"}><button className='btn'>Products</button></Link> */}
         
-         <FaBeer className='icon' onClick={()=>{
+         <FaBars className='icon' onClick={()=>{
             setIsOpen (!isopen)
          } }/>
     </div>
