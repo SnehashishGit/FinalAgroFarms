@@ -20,6 +20,9 @@ import Img19 from "../../images/GalleryPage/19.jpg";
 import Img20 from "../../images/GalleryPage/20.jpg";
 import Img21 from "../../images/GalleryPage/21.jpg";
 import Img22 from "../../images/GalleryPage/22.jpg";
+import Img23 from "../../images/GalleryPage/23.jpg";
+import Img24 from "../../images/GalleryPage/24.jpg";
+import Img25 from "../../images/GalleryPage/25.jpg";
 
 export const galleryImg = [
   {
@@ -110,5 +113,17 @@ export const galleryImg = [
   {
     img: Img22,
     id: 22,
+  },
+  {
+    img: Img23,
+    id: 23,
+  },
+  {
+    img: Img24,
+    id: 24,
+  },
+  {
+    img: Img25,
+    id: 25,
   },
 ];
