@@ -3,7 +3,7 @@ import TitleRed from "../../images/pricing/title-bg(1final).svg";
 import TrainersIcon from "../../images/who-we-are/group.png";
 import ModernIcon from "../../images/who-we-are/watering-can.png";
 import BtwoB from "../../images/who-we-are/b2b.png";
-import AboutUs from "../../images/who-we-are/about-us.jpg";
+import AboutUs from "../../images/logo/1.jpg";
 
 import GirlText from "../../images/who-we-are/rating.jpg";
 
